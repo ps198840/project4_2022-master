@@ -2,12 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\Category;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class CategorySeeder extends Seeder
+class UnitSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -16,11 +15,11 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        DB::table('categories')->insert([
-            'name' => 'pizzas',
+        DB::table('units')->insert([
+            'name' => 'gram',
         ]);
-        DB::table('categories')->insert([
-            'name' => 'milkshakes',
+        DB::table('units')->insert([
+            'name' => 'milliliter',
         ]);
     }
 }

@@ -60,6 +60,9 @@ class DatabaseSeeder extends Seeder
             PizzaPointSeeder::class,
             CategorySeeder::class,
             ProductSeeder::class,
+            UnitSeeder::class,
+            IngredientsSeeder::class,
+            IngredientProductSeeder::class,
         ]);
     }
 }
