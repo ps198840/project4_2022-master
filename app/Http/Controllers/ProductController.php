@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Ingredient;
 use App\Models\Product;
 use Illuminate\Http\Request;
 
@@ -14,7 +15,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        $pizzas = Product::all();
+        return view('products.pizzas', ['pizzas' => $pizzas]);
     }
 
     /**
@@ -24,7 +26,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        return view ('products.create');
     }
 
     /**
@@ -35,51 +37,76 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $name = $request->input('name');
+        $description = $request->input('description');
+        $image = $request->input('image');
+        $price = $request->input('price');
+        $category_id = $request->input('category_id');
+
+        $validated = $request->validate([
+            'name' => 'required',
+            'image' => 'required',
+            'price' => 'required',
+            'category_id' => 'required',
+        ]);
+        Product::create($request->only(['name', 'image','v', 'category_id']));
+
+        return redirect()->route('products.pizzas');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Product  $product
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Product $product)
+    public function show($id)
     {
-        //
+        $pizza = Product::find($id);
+        return view('products.show', ['pizza' => $pizza,'ingredients' => Ingredient::all()]);
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Product  $product
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Product $product)
+    public function edit($id)
     {
-        //
+        $pizza = Product::find($id);
+        return view('products.edit', ['pizza' => $pizza,'ingredients' => Ingredient::all()]);
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Product  $product
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Product $product)
+    public function update(Request $request, $id)
     {
-        //
+        $validated = $request->validate([
+            'name' => 'required',
+            'image' => 'required',
+            'price' => 'required',
+            'category_id' => 'required',
+        ]);
+        Product::find($id)->update($request -> only('name', 'image', 'price', 'category_id'));
+        return redirect()->route('products.show', ['id' => $id]);
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Product  $product
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Product $product)
+    public function destroy($id)
     {
-        //
+        $pizza = Product::destroy('id', $id);
+        $pizzas = Product::all();
+        return view('products.pizzas', ['pizzas' => $pizzas]);
     }
 }

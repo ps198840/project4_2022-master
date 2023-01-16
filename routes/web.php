@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\PersonController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UserController;
 use App\Models\Person;
 use App\Models\User;
@@ -28,6 +29,7 @@ Route::get('/', function () {
     // the component is rendered in the welcome view with the following line:
     // <x-product-list />
     return view('welcome', ['products' => ['pizza', 'pasta', 'salad', 'dessert', 'drinks']]);
+    //return view('index');
 });
 
 Route::get('/dashboard', function () {
@@ -93,3 +95,13 @@ Route::get('test3', function () {
 // een klant mag zichzelf aanmaken zonder ingelogd te zijn
 // het aanmaken van een klant is in feite het aanmaken van een persoon
 // en het aanmaken van een gebruiker (user)
+//pizzas
+Route::get('/pizzas', [ProductController::class, 'index'])->Name('products.index');
+Route::get('/pizzas/create', [ProductController::class, 'create'])->middleware('auth')->Name('products.create');
+Route::post('/pizzas/', [ProductController::class, 'store'])->Name('products.store');
+Route::get('/pizzas/{id}', [ProductController::class, 'show'])->middleware('auth')->Name('products.show');
+Route::get('/pizzas/{id}/edit', [ProductController::class, 'edit'])->middleware('auth')->Name('products.edit');
+Route::delete('/pizzas/{id}/delete', [ProductController::class, 'destroy'])->middleware('auth')->Name('products.delete');
+Route::put('/pizzas/{id}', [ProductController::class, 'update'])->middleware('auth')->Name('products.update');
+
+Route::get('/overons', [ProductController::class, 'index'])->Name('overons.index');
