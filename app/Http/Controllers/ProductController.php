@@ -37,21 +37,21 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        $name = $request->input('name');
-        $description = $request->input('description');
-        $image = $request->input('image');
-        $price = $request->input('price');
-        $category_id = $request->input('category_id');
-
-        $validated = $request->validate([
-            'name' => 'required',
-            'image' => 'required',
-            'price' => 'required',
-            'category_id' => 'required',
-        ]);
-        Product::create($request->only(['name', 'image','v', 'category_id']));
-
-        return redirect()->route('products.pizzas');
+        //$name = $request->input('name');
+        //$description = $request->input('description');
+        //$image = $request->input('image');
+        //$price = $request->input('price');
+        //$category_id = $request->input('category_id');
+//
+        //$validated = $request->validate([
+        //    'name' => 'required',
+        //    'image' => 'required',
+        //    'price' => 'required',
+        //    'category_id' => 'required',
+        //]);
+        //Product::create($request->only(['name', 'image','v', 'category_id']));
+//
+        //return redirect()->route('products.pizzas');
     }
 
     /**
@@ -74,8 +74,8 @@ class ProductController extends Controller
      */
     public function edit($id)
     {
-        $pizza = Product::find($id);
-        return view('products.edit', ['pizza' => $pizza,'ingredients' => Ingredient::all()]);
+        //$pizza = Product::find($id);
+        //return view('products.edit', ['pizza' => $pizza,'ingredients' => Ingredient::all()]);
     }
 
     /**
@@ -87,14 +87,14 @@ class ProductController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $validated = $request->validate([
-            'name' => 'required',
-            'image' => 'required',
-            'price' => 'required',
-            'category_id' => 'required',
-        ]);
-        Product::find($id)->update($request -> only('name', 'image', 'price', 'category_id'));
-        return redirect()->route('products.show', ['id' => $id]);
+        //$validated = $request->validate([
+        //    'name' => 'required',
+        //    'image' => 'required',
+        //    'price' => 'required',
+        //    'category_id' => 'required',
+        //]);
+        //Product::find($id)->update($request -> only('name', 'image', 'price', 'category_id'));
+        //return redirect()->route('products.show', ['id' => $id]);
     }
 
     /**
