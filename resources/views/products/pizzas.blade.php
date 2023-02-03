@@ -1,4 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8" />
     @vite('resources/css/app.css')
 </head>
 <body>
@@ -40,10 +43,10 @@
             @endforeach
         @endisset
     </ul>
-    <div class="mx-auto flex flex-wrap justify-between bg-green-600 text-green-300 rounded-md p-4">
-        <p>Totaal:</p>
+    <div class="mx-auto flex flex-wrap justify-between bg-green-600 text-green-300 rounded-md py-1 px-5">
         <a class="items-center mt-3 sm:mt-0 hover:underline hover:text-green-100" href="{{route('session.show')}}">Winkelwagen</a>
     </div>
 </main>
 <x-footer></x-footer>
 </body>
+</html>

@@ -6,14 +6,13 @@
 </head>
 <body>
 <x-navbar></x-navbar>
-<main class="flex justify-around mx-auto">
-    <p class="font-semibold underline">Ferali</p>
-    <p class="font-bold underline">gatr</p>
-    <p class="font-extrabold">!</p>
-    <a href="https://pokemondb.net/pokedex/feraligatr"><img src="https://img.pokemondb.net/sprites/x-y/shiny/feraligatr.png" alt="Feraligatr"></a>
-    <p class="font-extralight text-sm text-blue-600">(shiny)</p>
-    <a href="https://pokemondb.net/pokedex/feraligatr"><img src="https://img.pokemondb.net/sprites/x-y/normal/feraligatr.png" alt="Feraligatr"></a>
-    <p class="text-red-400">(not shiny)</p>
+<main class="grid grid-rows-2 mx-auto">
+    <div class="row-start-1 flex justify-around">
+        <p class="text-3xl p-3">Welkom bij Stonks Pizza</p>
+    </div>
+    <div class="row-start-2 flex justify-between">
+        
+    </div>
 </main>
 <x-footer></x-footer>
 </body>

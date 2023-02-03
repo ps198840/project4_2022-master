@@ -1,6 +1,6 @@
 <nav class="flex items-center justify-between flex-wrap bg-green-600 p-3 mx-auto rounded-md">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <img src="img/pizz-logo.png" class="mx-1 w-14 rounded"/>
+        <img src="/img/pizz-logo.png" class="mx-1 w-14 rounded"/>
         <a href="{{route('home')}}" class="font-semibold text-xl tracking-tight hover:underline">Stonks Pizza</a>
     </div>
     <div class="block lg:hidden">
@@ -11,7 +11,7 @@
     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
             <a href="{{ route('products.index') }}" class="block mt-4 lg:inline-block lg:mt-0 text-green-200 hover:text-white mr-4">Pizza</a>
-            <a href="" class="block mt-4 lg:inline-block lg:mt-0 text-green-200 hover:text-white mr-4">Over ons</a>
+            <a href="{{ route('overons') }}" class="block mt-4 lg:inline-block lg:mt-0 text-green-200 hover:text-white mr-4">Over ons</a>
         </div>
         <div>
             @if(Auth::check())

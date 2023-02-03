@@ -106,4 +106,5 @@ Route::get('/cart/show', [SessionController::class, 'show'])->Name('session.show
 Route::get('/cart/clear', [SessionController::class, 'clear'])->Name('session.clear');
 Route::delete('/cart/{id}/delete', [SessionController::class, 'destroy'])->middleware('auth')->Name('session.delete');
 
-Route::get('/overons', [ProductController::class, 'index'])->Name('overons.index');
+
+Route::get('/overons', function () { return view('overons');})->name("overons");

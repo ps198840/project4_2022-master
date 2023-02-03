@@ -19,7 +19,7 @@
                     <input class="col-start-1 hidden" name="id" type="number" value="{{$item['id']}}"/>
                     <a class="col-span-2 font-semibold" id="name">{{$item['name']}}</a>
                     <a id="size">{{$item['size']}}</a>
-                    <a id="price">&euro;{{$item['price']}}</a>
+                    <a id="price">&euro;{{number_format($item['price'], 2)}}</a>
                     <button class="font-semibold text-green-500 underline hover:line-through hover:text-red-600">Delete</button>
                 </form>
             @endforeach
@@ -49,8 +49,7 @@
 
     <div class="mx-auto flex flex-wrap justify-between bg-green-600 text-green-300 rounded-t-md py-1 px-5">
         <p>Totaal:</p> &nbsp;
-        <p>&euro;{{$total}}</p>
-
+        <p>&euro;{{ number_format($total, 2)}}</p>
         <a class="col-start-1 pl-10 font-semibold hover:underline hover:text-green-100" href="{{route('session.clear')}}">Bestellen</a>
     </div>
 </main>
