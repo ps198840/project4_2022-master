@@ -1,0 +1,44 @@
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\bin\Debug\net6.0-windows\WpfApp StonksPizza.exe
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\bin\Debug\net6.0-windows\WpfApp StonksPizza.deps.json
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\bin\Debug\net6.0-windows\WpfApp StonksPizza.runtimeconfig.json
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\bin\Debug\net6.0-windows\WpfApp StonksPizza.dll
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\bin\Debug\net6.0-windows\WpfApp StonksPizza.pdb
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\WpfApp StonksPizza.csproj.AssemblyReference.cache
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\Bestellingen.g.cs
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\Login.g.cs
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\SelectScreen.g.cs
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\App.g.cs
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\WpfApp StonksPizza_MarkupCompile.cache
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\WpfApp StonksPizza_MarkupCompile.lref
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\MainWindow.baml
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\Bestellingen.baml
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\Login.baml
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\SelectScreen.baml
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\WpfApp StonksPizza.g.resources
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\WpfApp StonksPizza.GeneratedMSBuildEditorConfig.editorconfig
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\WpfApp StonksPizza.AssemblyInfoInputs.cache
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\WpfApp StonksPizza.AssemblyInfo.cs
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\WpfApp StonksPizza.csproj.CoreCompileInputs.cache
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\WpfApp StonksPizza.dll
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\refint\WpfApp StonksPizza.dll
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\WpfApp StonksPizza.pdb
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\WpfApp StonksPizza.genruntimeconfig.cache
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\ref\WpfApp StonksPizza.dll
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\bin\Debug\net6.0-windows\WpfApp StonksPizza.dll.config
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\WpfApp StonksPizza.csproj.CopyComplete
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\BestellingNieuw.g.cs
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\BestellingNieuw.baml
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\BestRegelNieuw.g.cs
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\BestRegelNieuw.baml
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\ManagingScreen.g.cs
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\ManagingScreen.baml
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\Units.g.cs
+C:\programmeren\Ongecategoriseerde WPF projecten\WpfApp StonksPizza\WpfApp StonksPizza\obj\Debug\net6.0-windows\Views\Units.baml
