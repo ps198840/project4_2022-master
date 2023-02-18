@@ -8,6 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class Ingredient extends Model
 {
     use HasFactory;
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<string>
+     */
+    protected $fillable = ['name', 'unit_id', 'price'];
+
     public function product()
     {
         return $this->belongsToMany(Product::class);
